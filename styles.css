@@ -64,3 +64,45 @@ img {
   width: 100%;
   margin-top: 20px;
 }
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.team-container {
+  display: flex;
+  align-items: center;
+  margin: 5rem 12rem;
+}
+
+.team-pic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+
+}
+
+.team-content {
+  padding-left: 70px;
+  padding-top: 70px;
+}
+
+.team-title {
+  color: rgb(228, 91, 42);
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.team-description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+}
